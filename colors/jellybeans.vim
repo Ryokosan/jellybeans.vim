@@ -549,3 +549,19 @@ delf s:grey_color
 delf s:grey_level
 delf s:grey_number
 " }}}
+
+" The background ofline number customized.
+" {{{ Folding / Line Numbering / Status Lines
+hi Folded		guibg=#2C2C2C guifg=#808080 gui=bold
+hi vimFold		guibg=#2C2C2C guifg=#808080 gui=bold
+hi FoldColumn	guibg=#2C2C2C guifg=#808080 gui=bold
+
+hi LineNr		guifg=#959595 guibg=#2C2C2C gui=bold
+hi NonText		guifg=#808080 guibg=#2C2C2C
+hi Folded		guifg=#808080 guibg=#2C2C2C gui=bold
+hi FoldeColumn  guifg=#808080 guibg=#2C2C2C gui=bold
+
+hi VertSplit	guibg=#bbbbbb guifg=#bbbbbb gui=none
+hi StatusLine   guibg=#bbbbbb guifg=#404040 gui=bold
+hi StatusLineNC guibg=#d4d4d4 guifg=#404040 gui=italic
+" }}}
